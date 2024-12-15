@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
+    pageTitle: "🪴 The Fusion Framework",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -39,6 +39,7 @@ const config: QuartzConfig = {
           tertiary: "#84a59d",
           highlight: "rgba(143, 159, 169, 0.15)",
           textHighlight: "#fff23688",
+	     Red: "rgba(88, 0, 0, 0.4)",
         },
         darkMode: {
           light: "#161618",
@@ -50,6 +51,7 @@ const config: QuartzConfig = {
           tertiary: "#84a59d",
           highlight: "rgba(143, 159, 169, 0.15)",
           textHighlight: "#b3aa0288",
+	     Red: "rgba(66, 0, 0, 0.4)",
         },
       },
     },
@@ -62,8 +64,8 @@ const config: QuartzConfig = {
       }),
       Plugin.SyntaxHighlighting({
         theme: {
-          light: "github-light",
           dark: "github-dark",
+          light: "github-light",
         },
         keepBackground: false,
       }),
